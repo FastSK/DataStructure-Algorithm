@@ -2,4 +2,4 @@
 
 1. Insertion sort
 2. Bubble Sort
-3. 
+3. Merge Sort
