@@ -80,7 +80,7 @@ public class QuickSort {
 
 class Main {
     public static void main(String[] args) {
-        int[] data = {8,7,6,1,0,9,2};
+        int[] data = {18, 5,0,11,2,9,100, -1};
         System.out.println("Unsorted Array" + Arrays.toString(data));
 
         int size = data.length;
