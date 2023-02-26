@@ -9,8 +9,6 @@
  * to form a sorted array
  */
 
-
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -27,6 +25,7 @@ import java.util.Arrays;
  *  2-6) Finally, the pivot element is swapped with the second pointer
  * 3. Divide Sub arrays
  * - Select pivot element of in each half and put at correct place using recursion
+ *
  */
 
 public class QuickSort {
