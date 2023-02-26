@@ -6,3 +6,4 @@
 4. Quick Sort - Divide and Conquer
 
 ![img.png](img.png)
+sort.gif
