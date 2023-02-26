@@ -25,7 +25,7 @@ import java.util.Arrays;
  *  2-4) The process is repeated to set the next greater element as the second pointer
  *  2-5) The process goes on until the second last element is reached
  *  2-6) Finally, the pivot element is swapped with the second pointer
- * 3. Divide Subarrays
+ * 3. Divide Sub arrays
  * - Select pivot element of in each half and put at correct place using recursion
  */
 
@@ -41,7 +41,7 @@ public class QuickSort {
         // traverse through all elements
         // compare each element with pivot
         for (int j = low; j < high; j++) {
-            if (array[j] <= pivot) {
+            if (array[j] <= pivot) {  // ascending order
                 // if element smaller than pivot is found
                 // swap it with the greater element pointer by i
                 i++;
@@ -80,14 +80,13 @@ public class QuickSort {
 
 class Main {
     public static void main(String[] args) {
-        int[] data = {10,8,5,2,66,48,0,1,96,28};
+        int[] data = {8,7,6,1,0,9,2};
         System.out.println("Unsorted Array" + Arrays.toString(data));
 
         int size = data.length;
 
         // call quickSort() on array data
         QuickSort.quickSort(data, 0, size-1);
-
         System.out.println("Sorted Array in Ascending order: " + Arrays.toString(data));
     }
 }
