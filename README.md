@@ -2,7 +2,7 @@
 
 1. Insertion sort
 2. Bubble Sort
-3. Merge Sort
+3. Merge Sort - Divide and Conquer
 4. Quick Sort - Divide and Conquer
 
 # Complexity 
