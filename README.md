@@ -10,7 +10,3 @@
 
 # Sorting simulation
 ![](https://github.com/FastSK/Sort/blob/master/sort.gif)
-
-
-
-df
