@@ -1,6 +1,4 @@
-package Sort;
-
-/**
+package Sort; /**
  * QuickSort
  * Divide and Conquer Algorithm
  * Partition Algorithm
@@ -91,3 +89,4 @@ class Main {
         System.out.println("Sorted Array in Ascending order: " + Arrays.toString(data));
     }
 }
+

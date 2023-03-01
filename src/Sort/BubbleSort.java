@@ -9,7 +9,7 @@ import java.util.Arrays;
  * 2) if 1st is greater than 2nd element, swap those two.
  * 3) compare 2nd and 3rd element.
  * 4) keep this process until the last element.
- * <p>
+ *
  * 2. Remaining Iteration until all the unsorted elements are placed
  * at their correct positions.
  */
